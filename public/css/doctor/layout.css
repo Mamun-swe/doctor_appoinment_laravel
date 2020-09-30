@@ -1,0 +1,102 @@
+/* Navbar top */
+
+#doctor-app .navBar-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    z-index: 8;
+}
+
+#doctor-app .navBar-top .btn {
+    padding-top: 7px;
+    padding-bottom: 2px;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+
+#doctor-app .navBar-top .btn i {
+    font-size: 20px;
+}
+
+@media(max-width: 992px) {
+    #doctor-app .side-menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9;
+        width: 270px;
+        height: 100vh;
+        background: #fff;
+        transition: 0.4s all;
+    }
+    #doctor-app .side-menu .content {
+        width: 100%;
+        height: 100%;
+        background: #fff;
+        border-radius: 6px;
+        padding: 20px 10px;
+        border-radius: 0;
+    }
+    #doctor-app .side-menu .content a {
+        text-align: left;
+        transition: 0.4s all;
+        background: #fff;
+        color: #000;
+        font-size: 15px;
+        border-radius: 6px;
+        text-transform: capitalize;
+    }
+    #doctor-app .side-menu .content a:hover {
+        color: #fff;
+        background: #00ACE2;
+    }
+    #doctor-app .side-menu .content .active {
+        color: #fff;
+        background: #00ACE2;
+    }
+    #doctor-app .main {
+        margin-top: 51px;
+    }
+}
+
+@media(min-width: 992px) {
+    #doctor-app .side-menu {
+        min-width: 270px;
+        height: 100vh;
+        padding: 15px;
+    }
+    #doctor-app .side-menu .content {
+        width: 100%;
+        height: 100%;
+        background: #fff;
+        border-radius: 6px;
+        padding: 20px 10px;
+    }
+    #doctor-app .side-menu .content a {
+        text-align: left;
+        transition: 0.4s all;
+        background: #fff;
+        color: #000;
+        font-size: 15px;
+        border-radius: 6px;
+        text-transform: capitalize;
+    }
+    #doctor-app .side-menu .content a:hover {
+        color: #fff;
+        background: #00ACE2;
+    }
+    #doctor-app .side-menu .content .active {
+        color: #fff;
+        background: #00ACE2;
+    }
+    #doctor-app .main {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
+
+#doctor-app .main {
+    width: 100%;
+}

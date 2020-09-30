@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+.main {
+    padding-bottom: 50px;
+    background: #fff;
+}
+
+/* Home start */
+
+/* Header start */
+
+.home .header {
+    padding-top: 60px;
+}
+
+.home .header h1 {
+    margin-bottom: 0;
+    text-transform: capitalize;
+    font-family: 'Secular One', sans-serif;
+}
+
+.home .header h2 {
+    font-size: 22px;
+    text-transform: capitalize;
+    font-family: 'Secular One', sans-serif;
+}
+
+@media(min-width: 576px) {
+    .home .header h1 {
+        font-size: 70px;
+        font-family: 'Secular One', sans-serif;
+    }
+    .home .header img {
+        width: 450px;
+    }
+}
+
+/* Header end */
+
+/* Filter Start */
+
+.home .filter {
+    margin-top: 60px;
+}
+
+.home .filter .card {
+    border-radius: 6px;
+    overflow: hidden;
+    border: 1px solid #dfdfdf4d;
+}
+
+.home .filter .card .card-body .form-control {
+    border-radius: 25px;
+    height: 50px;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+.home .filter .card .card-body .btn {
+    height: 50px;
+    font-size: 16px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 25px;
+}
+
+/* Filter End */
+
+/* Home End */

@@ -1,0 +1,77 @@
+.custom-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #dfdfdf;
+    z-index: 9;
+}
+
+.custom-nav img {
+    height: 40px;
+}
+
+.custom-nav .nav-items ul li a {
+    font-family: 'Secular One', sans-serif;
+}
+
+@media(max-width: 992px) {
+    .custom-nav .nav-items {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 250px;
+        height: 100vh;
+        background: #fff;
+        z-index: 10;
+        transition: 0.4s all;
+    }
+    .custom-nav .nav-items ul {
+        margin-top: 15px;
+        margin-bottom: 0;
+        padding-left: 0;
+    }
+    .custom-nav .nav-items ul li {
+        list-style: none;
+        padding: 5px 10px;
+        margin: 0px 5px;
+    }
+    .custom-nav .nav-items ul li a {
+        color: #000;
+        font-size: 15px;
+        text-transform: capitalize;
+        text-decoration: none;
+        transition: 0.4s all;
+    }
+    .custom-nav .btn {
+        font-size: 20px;
+        padding-top: 3px;
+        padding-bottom: 2px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media(min-width: 992px) {
+    .custom-nav ul {
+        margin-top: 3px;
+        margin-bottom: 0;
+    }
+    .custom-nav ul li {
+        list-style: none;
+        display: inline-block;
+        padding: 5px 10px;
+        margin: 0px 5px;
+    }
+    .custom-nav ul li a {
+        color: #000;
+        font-size: 15px;
+        text-transform: capitalize;
+        text-decoration: none;
+        transition: 0.4s all;
+    }
+    .custom-nav ul li a:hover {
+        color: #d5009d;
+    }
+}
